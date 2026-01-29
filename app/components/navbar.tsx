@@ -14,13 +14,13 @@ export default function Navbar() {
           </div>
           <div className="flex flex-col">
             m0b-mailer
-            <span className="text-[.7rem] font-light text-zinc-400">
+            <span className="text-xs font-light text-zinc-700 dark:text-zinc-300">
               Reliable email delivery with DLQ support
             </span>
           </div>
         </Link>
         <Link
-          className="hover:bg-orange-400 rounded-full p-2 hover:text-black duration-200"
+          className="hover:bg-orange-500 hover:dark:bg-orange-400 rounded-full p-2 hover:text-white hover:dark:text-black duration-200"
           href={"https://github.com/mind0bender/m0b-mailer.git"}
           title="View on GitHub"
         >

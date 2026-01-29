@@ -1,4 +1,5 @@
 import Endpoint, { EndpointProps } from "./components/endpoint";
+import Footer from "./components/footer";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
 import UsageSection from "./components/usage";
@@ -58,7 +59,17 @@ export default function Home() {
           </div>
         </div>
         <UsageSection />
+
+        <div className="py-6 flex flex-col gap-8 w-full">
+          <p className="px-4 py-2 rounded-md bg-yellow-800/10 border border-yellow-700 w-full">
+            Developed primarily for internal use and not maintained as a public
+            product.
+            <br />
+            Community contributions are welcome and appreciated.{" "}
+          </p>
+        </div>
       </main>
+      <Footer />
     </div>
   );
 }

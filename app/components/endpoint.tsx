@@ -28,7 +28,7 @@ export default function Endpoint({
               {method}
             </span>
           ) : (
-            <div className="text-lg flex justify-center items-center gap-2">
+            <div className="text-lg text-blue-500 dark:text-violet-400 flex justify-center items-center gap-2">
               <CodeSquare />
               Code
             </div>

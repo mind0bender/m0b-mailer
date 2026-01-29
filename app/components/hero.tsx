@@ -17,7 +17,7 @@ export default function Hero() {
         </p>
       </div>
       <div className="flex flex-col justify-center items-center py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-16">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-12">
           <FeatureCard
             icon={
               <CheckCircle
