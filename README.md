@@ -49,9 +49,9 @@ SMTP_PASS
 
 ```ts
 await sendMail({
-  to: "<user@example.com>",
-  subject: "Welcome",
-  html: "<h1>Hello</h1>",
+	to: '<user@example.com>',
+	subject: 'Welcome',
+	html: '<h1>Hello</h1>',
 });
 ```
 

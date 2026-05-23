@@ -1,13 +1,13 @@
-import Endpoint from "./endpoint";
+import Endpoint from './endpoint';
 
 export default function UsageSection() {
-  return (
-    <div className="w-full">
-      <h3 className="text-2xl font-bold my-12">Basic Usage</h3>
-      <div className="w-full flex flex-col justify-center items-center gap-8">
-        <Endpoint
-          desc="Create a reusable helper to send emails with QStash integration"
-          code={`import { Client, PublishToApiResponse } from "@upstash/qstash";
+	return (
+		<div className="w-full">
+			<h3 className="text-2xl font-bold my-12">Basic Usage</h3>
+			<div className="w-full flex flex-col justify-center items-center gap-8">
+				<Endpoint
+					desc="Create a reusable helper to send emails with QStash integration"
+					code={`import { Client, PublishToApiResponse } from "@upstash/qstash";
 import { MAILER_URL, QSTASH_TOKEN } from "./const";
 
 export interface SendMailOptions {
@@ -52,8 +52,8 @@ export default async function sendMail({
   })) as PublishToApiResponse;
   return res.messageId;
 }`}
-        />
-      </div>
-    </div>
-  );
+				/>
+			</div>
+		</div>
+	);
 }
